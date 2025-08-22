@@ -79,7 +79,11 @@ export default function Home() {
                             <div className={styles.appDashboardWrap}>
                                 <div className={styles.appDashboardInfoWrap}>
                                     <div className={styles.appDashboardInfo}>
-                                        <div className={styles.appDashboardInfoBlock}>
+                                        <div
+                                            className={
+                                                styles.appDashboardInfoBlock
+                                            }
+                                        >
                                             <div
                                                 className={
                                                     styles.appDashboardInfoItem
@@ -135,8 +139,12 @@ export default function Home() {
                                                 Gifts: <span>0.41 ETH</span>
                                             </div>
                                         </div>
-                                        
-                                        <div className={styles.appDashboardInfoBlock}>
+
+                                        <div
+                                            className={
+                                                styles.appDashboardInfoBlock
+                                            }
+                                        >
                                             <div
                                                 className={
                                                     styles.appDashboardInfoItem
@@ -667,311 +675,929 @@ export default function Home() {
                                 </p>
                             </div>
 
-                            <div className={styles.appTableContent}>
-                                <div className={styles.appTableItem}>
-                                    <p
-                                        className={cn(
-                                            styles.appTableItemValue,
-                                            styles.appTableItemId
-                                        )}
-                                    >
-                                        134,717,449,937
-                                    </p>
-
-                                    <div
-                                        className={cn(
-                                            styles.appTableItemValue,
-                                            styles.appTableItemUser
-                                        )}
-                                    >
-                                        <div
-                                            className={
-                                                styles.appTableItemUserName
-                                            }
+                            <div className={styles.appTableContentWrap}>
+                                <div className={styles.appTableContent}>
+                                    <div className={styles.appTableItem}>
+                                        <p
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemId
+                                            )}
                                         >
-                                            <Blind />
-                                            Hidden
+                                            134,717,449,937
+                                        </p>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemUser
+                                            )}
+                                        >
+                                            <div
+                                                className={
+                                                    styles.appTableItemUserName
+                                                }
+                                            >
+                                                <Blind />
+                                                Hidden
+                                            </div>
+                                        </div>
+
+                                        <p
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemId
+                                            )}
+                                        >
+                                            7:12 PM
+                                        </p>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemColor
+                                            )}
+                                        >
+                                            <div
+                                                className={cn(
+                                                    styles.appTableItemColorCircle,
+                                                    styles.blue
+                                                )}
+                                            ></div>
+                                            Blue
+                                        </div>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemUser
+                                            )}
+                                        >
+                                            <div
+                                                className={cn(
+                                                    styles.appTableItemValueDouble,
+                                                    styles.negative
+                                                )}
+                                            >
+                                                No
+                                            </div>
+                                        </div>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemPay
+                                            )}
+                                        >
+                                            -0.02131
+                                            <Eth />
                                         </div>
                                     </div>
 
-                                    <p
-                                        className={cn(
-                                            styles.appTableItemValue,
-                                            styles.appTableItemId
-                                        )}
-                                    >
-                                        7:12 PM
-                                    </p>
-
-                                    <div
-                                        className={cn(
-                                            styles.appTableItemValue,
-                                            styles.appTableItemColor
-                                        )}
-                                    >
-                                        <div
+                                    <div className={styles.appTableItem}>
+                                        <p
                                             className={cn(
-                                                styles.appTableItemColorCircle,
-                                                styles.blue
-                                            )}
-                                        ></div>
-                                        Blue
-                                    </div>
-
-                                    <div
-                                        className={cn(
-                                            styles.appTableItemValue,
-                                            styles.appTableItemUser
-                                        )}
-                                    >
-                                        <div
-                                            className={cn(
-                                                styles.appTableItemValueDouble,
-                                                styles.negative
+                                                styles.appTableItemValue,
+                                                styles.appTableItemId
                                             )}
                                         >
-                                            No
+                                            134,717,449,937
+                                        </p>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemUser
+                                            )}
+                                        >
+                                            <div
+                                                className={
+                                                    styles.appTableItemUserName
+                                                }
+                                            >
+                                                <Blind />
+                                                Hidden
+                                            </div>
+                                        </div>
+
+                                        <p
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemId
+                                            )}
+                                        >
+                                            7:12 PM
+                                        </p>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemColor
+                                            )}
+                                        >
+                                            <div
+                                                className={cn(
+                                                    styles.appTableItemColorCircle,
+                                                    styles.blue
+                                                )}
+                                            ></div>
+                                            Blue
+                                        </div>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemUser
+                                            )}
+                                        >
+                                            <div
+                                                className={cn(
+                                                    styles.appTableItemValueDouble,
+                                                    styles.negative
+                                                )}
+                                            >
+                                                No
+                                            </div>
+                                        </div>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemPay
+                                            )}
+                                        >
+                                            -0.02131
+                                            <Eth />
                                         </div>
                                     </div>
 
-                                    <div
-                                        className={cn(
-                                            styles.appTableItemValue,
-                                            styles.appTableItemPay
-                                        )}
-                                    >
-                                        -0.02131
-                                        <Eth />
-                                    </div>
-                                </div>
-
-                                <div className={styles.appTableItem}>
-                                    <p
-                                        className={cn(
-                                            styles.appTableItemValue,
-                                            styles.appTableItemId
-                                        )}
-                                    >
-                                        134,717,449,937
-                                    </p>
-
-                                    <div
-                                        className={cn(
-                                            styles.appTableItemValue,
-                                            styles.appTableItemUser
-                                        )}
-                                    >
-                                        <div
-                                            className={
-                                                styles.appTableItemUserName
-                                            }
+                                    <div className={styles.appTableItem}>
+                                        <p
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemId
+                                            )}
                                         >
-                                            <Blind />
-                                            Hidden
+                                            134,717,449,937
+                                        </p>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemUser
+                                            )}
+                                        >
+                                            <div
+                                                className={
+                                                    styles.appTableItemUserName
+                                                }
+                                            >
+                                                <Blind />
+                                                Hidden
+                                            </div>
+                                        </div>
+
+                                        <p
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemId
+                                            )}
+                                        >
+                                            7:12 PM
+                                        </p>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemColor
+                                            )}
+                                        >
+                                            <div
+                                                className={cn(
+                                                    styles.appTableItemColorCircle,
+                                                    styles.blue
+                                                )}
+                                            ></div>
+                                            Blue
+                                        </div>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemUser
+                                            )}
+                                        >
+                                            <div
+                                                className={cn(
+                                                    styles.appTableItemValueDouble,
+                                                    styles.negative
+                                                )}
+                                            >
+                                                No
+                                            </div>
+                                        </div>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemPay
+                                            )}
+                                        >
+                                            -0.02131
+                                            <Eth />
                                         </div>
                                     </div>
 
-                                    <p
-                                        className={cn(
-                                            styles.appTableItemValue,
-                                            styles.appTableItemId
-                                        )}
-                                    >
-                                        7:12 PM
-                                    </p>
-
-                                    <div
-                                        className={cn(
-                                            styles.appTableItemValue,
-                                            styles.appTableItemColor
-                                        )}
-                                    >
-                                        <div
+                                    <div className={styles.appTableItem}>
+                                        <p
                                             className={cn(
-                                                styles.appTableItemColorCircle,
-                                                styles.green
-                                            )}
-                                        ></div>
-                                        Green
-                                    </div>
-
-                                    <div
-                                        className={cn(
-                                            styles.appTableItemValue,
-                                            styles.appTableItemUser
-                                        )}
-                                    >
-                                        <div
-                                            className={cn(
-                                                styles.appTableItemValueDouble,
-                                                styles.negative
+                                                styles.appTableItemValue,
+                                                styles.appTableItemId
                                             )}
                                         >
-                                            No
+                                            134,717,449,937
+                                        </p>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemUser
+                                            )}
+                                        >
+                                            <div
+                                                className={
+                                                    styles.appTableItemUserName
+                                                }
+                                            >
+                                                <Blind />
+                                                Hidden
+                                            </div>
+                                        </div>
+
+                                        <p
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemId
+                                            )}
+                                        >
+                                            7:12 PM
+                                        </p>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemColor
+                                            )}
+                                        >
+                                            <div
+                                                className={cn(
+                                                    styles.appTableItemColorCircle,
+                                                    styles.blue
+                                                )}
+                                            ></div>
+                                            Blue
+                                        </div>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemUser
+                                            )}
+                                        >
+                                            <div
+                                                className={cn(
+                                                    styles.appTableItemValueDouble,
+                                                    styles.negative
+                                                )}
+                                            >
+                                                No
+                                            </div>
+                                        </div>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemPay
+                                            )}
+                                        >
+                                            -0.02131
+                                            <Eth />
                                         </div>
                                     </div>
 
-                                    <div
-                                        className={cn(
-                                            styles.appTableItemValue,
-                                            styles.appTableItemPay
-                                        )}
-                                    >
-                                        -0.02131
-                                        <Eth />
-                                    </div>
-                                </div>
-
-                                <div className={styles.appTableItem}>
-                                    <p
-                                        className={cn(
-                                            styles.appTableItemValue,
-                                            styles.appTableItemId
-                                        )}
-                                    >
-                                        134,717,449,937
-                                    </p>
-
-                                    <div
-                                        className={cn(
-                                            styles.appTableItemValue,
-                                            styles.appTableItemUser
-                                        )}
-                                    >
-                                        <div
-                                            className={
-                                                styles.appTableItemUserName
-                                            }
+                                    <div className={styles.appTableItem}>
+                                        <p
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemId
+                                            )}
                                         >
-                                            <Blind />
-                                            Hidden
+                                            134,717,449,937
+                                        </p>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemUser
+                                            )}
+                                        >
+                                            <div
+                                                className={
+                                                    styles.appTableItemUserName
+                                                }
+                                            >
+                                                <Blind />
+                                                Hidden
+                                            </div>
+                                        </div>
+
+                                        <p
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemId
+                                            )}
+                                        >
+                                            7:12 PM
+                                        </p>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemColor
+                                            )}
+                                        >
+                                            <div
+                                                className={cn(
+                                                    styles.appTableItemColorCircle,
+                                                    styles.blue
+                                                )}
+                                            ></div>
+                                            Blue
+                                        </div>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemUser
+                                            )}
+                                        >
+                                            <div
+                                                className={cn(
+                                                    styles.appTableItemValueDouble,
+                                                    styles.negative
+                                                )}
+                                            >
+                                                No
+                                            </div>
+                                        </div>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemPay
+                                            )}
+                                        >
+                                            -0.02131
+                                            <Eth />
                                         </div>
                                     </div>
 
-                                    <p
-                                        className={cn(
-                                            styles.appTableItemValue,
-                                            styles.appTableItemId
-                                        )}
-                                    >
-                                        7:12 PM
-                                    </p>
-
-                                    <div
-                                        className={cn(
-                                            styles.appTableItemValue,
-                                            styles.appTableItemColor
-                                        )}
-                                    >
-                                        <div
+                                    <div className={styles.appTableItem}>
+                                        <p
                                             className={cn(
-                                                styles.appTableItemColorCircle,
-                                                styles.orange
-                                            )}
-                                        ></div>
-                                        Orange
-                                    </div>
-
-                                    <div
-                                        className={cn(
-                                            styles.appTableItemValue,
-                                            styles.appTableItemUser
-                                        )}
-                                    >
-                                        <div
-                                            className={cn(
-                                                styles.appTableItemValueDouble,
-                                                styles.negative
+                                                styles.appTableItemValue,
+                                                styles.appTableItemId
                                             )}
                                         >
-                                            No
+                                            134,717,449,937
+                                        </p>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemUser
+                                            )}
+                                        >
+                                            <div
+                                                className={
+                                                    styles.appTableItemUserName
+                                                }
+                                            >
+                                                <Blind />
+                                                Hidden
+                                            </div>
+                                        </div>
+
+                                        <p
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemId
+                                            )}
+                                        >
+                                            7:12 PM
+                                        </p>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemColor
+                                            )}
+                                        >
+                                            <div
+                                                className={cn(
+                                                    styles.appTableItemColorCircle,
+                                                    styles.blue
+                                                )}
+                                            ></div>
+                                            Blue
+                                        </div>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemUser
+                                            )}
+                                        >
+                                            <div
+                                                className={cn(
+                                                    styles.appTableItemValueDouble,
+                                                    styles.negative
+                                                )}
+                                            >
+                                                No
+                                            </div>
+                                        </div>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemPay
+                                            )}
+                                        >
+                                            -0.02131
+                                            <Eth />
                                         </div>
                                     </div>
 
-                                    <div
-                                        className={cn(
-                                            styles.appTableItemValue,
-                                            styles.appTableItemPay
-                                        )}
-                                    >
-                                        -0.02131
-                                        <Eth />
-                                    </div>
-                                </div>
-
-                                <div className={styles.appTableItem}>
-                                    <p
-                                        className={cn(
-                                            styles.appTableItemValue,
-                                            styles.appTableItemId
-                                        )}
-                                    >
-                                        134,717,449,937
-                                    </p>
-
-                                    <div
-                                        className={cn(
-                                            styles.appTableItemValue,
-                                            styles.appTableItemUser
-                                        )}
-                                    >
-                                        <div
-                                            className={
-                                                styles.appTableItemUserName
-                                            }
+                                    <div className={styles.appTableItem}>
+                                        <p
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemId
+                                            )}
                                         >
-                                            Mickle
+                                            134,717,449,937
+                                        </p>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemUser
+                                            )}
+                                        >
+                                            <div
+                                                className={
+                                                    styles.appTableItemUserName
+                                                }
+                                            >
+                                                <Blind />
+                                                Hidden
+                                            </div>
+                                        </div>
+
+                                        <p
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemId
+                                            )}
+                                        >
+                                            7:12 PM
+                                        </p>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemColor
+                                            )}
+                                        >
+                                            <div
+                                                className={cn(
+                                                    styles.appTableItemColorCircle,
+                                                    styles.blue
+                                                )}
+                                            ></div>
+                                            Blue
+                                        </div>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemUser
+                                            )}
+                                        >
+                                            <div
+                                                className={cn(
+                                                    styles.appTableItemValueDouble,
+                                                    styles.negative
+                                                )}
+                                            >
+                                                No
+                                            </div>
+                                        </div>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemPay
+                                            )}
+                                        >
+                                            -0.02131
+                                            <Eth />
                                         </div>
                                     </div>
 
-                                    <p
-                                        className={cn(
-                                            styles.appTableItemValue,
-                                            styles.appTableItemId
-                                        )}
-                                    >
-                                        7:12 PM
-                                    </p>
-
-                                    <div
-                                        className={cn(
-                                            styles.appTableItemValue,
-                                            styles.appTableItemColor
-                                        )}
-                                    >
-                                        <div
+                                    <div className={styles.appTableItem}>
+                                        <p
                                             className={cn(
-                                                styles.appTableItemColorCircle,
-                                                styles.purple
-                                            )}
-                                        ></div>
-                                        Purple
-                                    </div>
-
-                                    <div
-                                        className={cn(
-                                            styles.appTableItemValue,
-                                            styles.appTableItemUser
-                                        )}
-                                    >
-                                        <div
-                                            className={cn(
-                                                styles.appTableItemValueDouble,
-                                                styles.positive
+                                                styles.appTableItemValue,
+                                                styles.appTableItemId
                                             )}
                                         >
-                                            Yes
+                                            134,717,449,937
+                                        </p>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemUser
+                                            )}
+                                        >
+                                            <div
+                                                className={
+                                                    styles.appTableItemUserName
+                                                }
+                                            >
+                                                <Blind />
+                                                Hidden
+                                            </div>
+                                        </div>
+
+                                        <p
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemId
+                                            )}
+                                        >
+                                            7:12 PM
+                                        </p>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemColor
+                                            )}
+                                        >
+                                            <div
+                                                className={cn(
+                                                    styles.appTableItemColorCircle,
+                                                    styles.blue
+                                                )}
+                                            ></div>
+                                            Blue
+                                        </div>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemUser
+                                            )}
+                                        >
+                                            <div
+                                                className={cn(
+                                                    styles.appTableItemValueDouble,
+                                                    styles.negative
+                                                )}
+                                            >
+                                                No
+                                            </div>
+                                        </div>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemPay
+                                            )}
+                                        >
+                                            -0.02131
+                                            <Eth />
                                         </div>
                                     </div>
 
-                                    <div
-                                        className={cn(
-                                            styles.appTableItemValue,
-                                            styles.appTableItemPay
-                                        )}
-                                    >
-                                        -0.02131
-                                        <Eth />
+                                    <div className={styles.appTableItem}>
+                                        <p
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemId
+                                            )}
+                                        >
+                                            134,717,449,937
+                                        </p>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemUser
+                                            )}
+                                        >
+                                            <div
+                                                className={
+                                                    styles.appTableItemUserName
+                                                }
+                                            >
+                                                <Blind />
+                                                Hidden
+                                            </div>
+                                        </div>
+
+                                        <p
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemId
+                                            )}
+                                        >
+                                            7:12 PM
+                                        </p>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemColor
+                                            )}
+                                        >
+                                            <div
+                                                className={cn(
+                                                    styles.appTableItemColorCircle,
+                                                    styles.blue
+                                                )}
+                                            ></div>
+                                            Blue
+                                        </div>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemUser
+                                            )}
+                                        >
+                                            <div
+                                                className={cn(
+                                                    styles.appTableItemValueDouble,
+                                                    styles.negative
+                                                )}
+                                            >
+                                                No
+                                            </div>
+                                        </div>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemPay
+                                            )}
+                                        >
+                                            -0.02131
+                                            <Eth />
+                                        </div>
+                                    </div>
+
+                                    <div className={styles.appTableItem}>
+                                        <p
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemId
+                                            )}
+                                        >
+                                            134,717,449,937
+                                        </p>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemUser
+                                            )}
+                                        >
+                                            <div
+                                                className={
+                                                    styles.appTableItemUserName
+                                                }
+                                            >
+                                                <Blind />
+                                                Hidden
+                                            </div>
+                                        </div>
+
+                                        <p
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemId
+                                            )}
+                                        >
+                                            7:12 PM
+                                        </p>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemColor
+                                            )}
+                                        >
+                                            <div
+                                                className={cn(
+                                                    styles.appTableItemColorCircle,
+                                                    styles.green
+                                                )}
+                                            ></div>
+                                            Green
+                                        </div>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemUser
+                                            )}
+                                        >
+                                            <div
+                                                className={cn(
+                                                    styles.appTableItemValueDouble,
+                                                    styles.negative
+                                                )}
+                                            >
+                                                No
+                                            </div>
+                                        </div>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemPay
+                                            )}
+                                        >
+                                            -0.02131
+                                            <Eth />
+                                        </div>
+                                    </div>
+
+                                    <div className={styles.appTableItem}>
+                                        <p
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemId
+                                            )}
+                                        >
+                                            134,717,449,937
+                                        </p>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemUser
+                                            )}
+                                        >
+                                            <div
+                                                className={
+                                                    styles.appTableItemUserName
+                                                }
+                                            >
+                                                <Blind />
+                                                Hidden
+                                            </div>
+                                        </div>
+
+                                        <p
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemId
+                                            )}
+                                        >
+                                            7:12 PM
+                                        </p>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemColor
+                                            )}
+                                        >
+                                            <div
+                                                className={cn(
+                                                    styles.appTableItemColorCircle,
+                                                    styles.orange
+                                                )}
+                                            ></div>
+                                            Orange
+                                        </div>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemUser
+                                            )}
+                                        >
+                                            <div
+                                                className={cn(
+                                                    styles.appTableItemValueDouble,
+                                                    styles.negative
+                                                )}
+                                            >
+                                                No
+                                            </div>
+                                        </div>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemPay
+                                            )}
+                                        >
+                                            -0.02131
+                                            <Eth />
+                                        </div>
+                                    </div>
+
+                                    <div className={styles.appTableItem}>
+                                        <p
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemId
+                                            )}
+                                        >
+                                            134,717,449,937
+                                        </p>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemUser
+                                            )}
+                                        >
+                                            <div
+                                                className={
+                                                    styles.appTableItemUserName
+                                                }
+                                            >
+                                                Mickle
+                                            </div>
+                                        </div>
+
+                                        <p
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemId
+                                            )}
+                                        >
+                                            7:12 PM
+                                        </p>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemColor
+                                            )}
+                                        >
+                                            <div
+                                                className={cn(
+                                                    styles.appTableItemColorCircle,
+                                                    styles.purple
+                                                )}
+                                            ></div>
+                                            Purple
+                                        </div>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemUser
+                                            )}
+                                        >
+                                            <div
+                                                className={cn(
+                                                    styles.appTableItemValueDouble,
+                                                    styles.positive
+                                                )}
+                                            >
+                                                Yes
+                                            </div>
+                                        </div>
+
+                                        <div
+                                            className={cn(
+                                                styles.appTableItemValue,
+                                                styles.appTableItemPay
+                                            )}
+                                        >
+                                            -0.02131
+                                            <Eth />
+                                        </div>
                                     </div>
                                 </div>
                             </div>

@@ -139,30 +139,50 @@
     gap: 5px;
 }
 
+.appTableContent::-webkit-scrollbar{
+    width: 5px;
+}
+
 .appTableInner::-webkit-scrollbar{
     height: 5px;
 }
 
-.appTableInner::-webkit-scrollbar-thumb{
+.appTableInner::-webkit-scrollbar-thumb, .appTableContent::-webkit-scrollbar-thumb{
     background: #605B5B;
+    border-radius: 50px;
 }
 
-.appTableInner::-webkit-scrollbar-track{
+.appTableInner::-webkit-scrollbar-track, .appTableContent::-webkit-scrollbar-track{
     background: #262626;
+    border-radius: 50px;
 }
 
 @media (max-width: 768px) {
     .appTableInner{
         overflow-x: auto;
+        padding-bottom: 0.8rem;
     }
 }
 
-.appTableHeader, .appTableContent {
+.appTableContentWrap{
+    width: 100%;
+    padding: 0.6rem 1rem 0.6rem 0;
+    border-radius: 15px;
+    background: rgba(19, 19, 19, 0.83);
+    border: 1px solid #303030;
+}
+
+.appTableHeader {
     width: 100%;
     padding: 1.6rem;
     border-radius: 15px;
     background: rgba(19, 19, 19, 0.83);
     border: 1px solid #303030;
+}
+
+.appTableContent{
+    width: 100%;
+    padding: 1.6rem;
 }
 
 @media (max-width: 768px) {
