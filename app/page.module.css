@@ -186,7 +186,7 @@
 }
 
 @media (max-width: 768px) {
-    .appTableHeader, .appTableContent{
+    .appTableHeader, .appTableContentWrap{
         flex-shrink: 0;
         width: 800px;
     }
